@@ -1,0 +1,16 @@
+<h2>this is in mobile collection</h2>
+<br>
+
+<table border="1" [cellPadding]="5">
+    <tr>
+        <td>Mobile Brand</td>
+        <td>Price</td>
+        <td>Stock</td>
+    </tr>
+
+    <tr *ngFor="let x of mobiles">
+        <td>{{x.name}}</td>
+        <td>{{x.price}}</td>
+        <td>{{x.stock}}</td>
+    </tr>
+</table>
